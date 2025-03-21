@@ -26,24 +26,24 @@ Lets take a look inside the `src` folder
  - Clone this template from github and open in a text editor.
  - Run the following command:
     ```
-        npm install
+    npm install
     ```
  - In the root directory create a `.env` file and the following env variables:
     ```
-        PORT=<port number>
+    PORT=<port number>
     ```
     example:
     ```
-        PORT=3000
+    PORT=3000
     ```
  - Go inside `src` folder and execute the following command:
     ```
-        npx sequelize init
+    npx sequelize init --force
     ```
     - By executing the above command you will get the migrations and seeders folders along with confi.json file inside the config folder.<br>
     Make sure to replace put the correct values for the username, password, databse, host and dialect for each environment: development, test and production.
 
  - To run the server, run the following command:
     ```
-        npm run dev
+    npm run dev
     ```
